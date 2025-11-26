@@ -1,5 +1,5 @@
 <?php
-
+use  Cgarcher\Fix\Database\PDO;
 class configDB {
     private static ?PDO $instance = null;
     private static string $host;
